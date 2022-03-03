@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/images/conditon1.png</file>
+        <file>resources/images/conditon2.png</file>
+        <file>resources/images/conditon3.png</file>
+        <file>resources/images/logo.png</file>
+        <file>resources/images/logo2.png</file>
+        <file>resources/images/logo_seri.png</file>
+        <file>resources/lunar1900_2050.txt</file>
+    </qresource>
+</RCC>

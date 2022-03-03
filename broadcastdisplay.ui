@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BroadCastDisplay</class>
+ <widget class="QWidget" name="BroadCastDisplay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1050</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #160C4B; border-style: solid; border-width: 0px; border-color: #160C4B;</string>
+  </property>
+  <widget class="QLabel" name="labelBroadcastMsg">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>270</y>
+     <width>921</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔바른고딕</family>
+     <pointsize>90</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color :#160C4B; color : #FFFFFF; border-style: solid; border-width: 0px; border-color: #160C4B;</string>
+   </property>
+   <property name="text">
+    <string>방송 중!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

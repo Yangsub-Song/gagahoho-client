@@ -1,0 +1,16 @@
+[Unit]
+Description=Gagahoho Main App
+After=systemd-user-sessions.service
+
+[Service]
+User=root
+Type=simple
+Environment="QT_QPA_PLATFORM=eglfs"
+Environment="LANG=ko_KR"
+Environment="LC_ALL=ko_KR"
+ExecStart=-/usr/bin/gagahoho-client
+RestartSec=3
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
